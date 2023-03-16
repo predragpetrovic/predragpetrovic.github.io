@@ -1,0 +1,44 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "W22M9B7WR5.de.gira.app.x1"
+        ],
+        "appID": "W22M9B7WR5.de.gira.app.x1",
+        "components": [
+          {
+            "?": {
+              "urn": "?*"
+            },
+            "comment": "Legacy NFC URNs"
+          },
+          {
+            "/": "/smart-home/*",
+            "comment": "Link to Smart Home App (only purpose is NFC tag by now) with new link concept"
+          }
+        ],
+        "paths": [
+          "/smart-home/*",
+          "/.well-known*"
+        ]
+      },
+      {
+        "appIDs": [
+          "W22M9B7WR5.de.gira.dcs"
+        ],
+        "appID": "W22M9B7WR5.de.gira.dcs",
+        "components": [
+          {
+            "/": "/mobile-dcs/*",
+            "comment": "Link to Mobile DCS App (only purpose is QR Code scan for Call Redirection by now)"
+          }
+        ],
+        "paths": [
+          "/mobile-dcs/*"
+        ]
+      }
+    ]
+  }
+}
