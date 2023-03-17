@@ -1,7 +1,27 @@
 <html>
   <head>
-    <meta http-equiv="refresh" content="0;url=https://play.google.com/store/apps/details?id=gira.mobileDcs&referrer=ncpDcForwarding"/>
-    <title>Mobile dcs NCP DC Forwarding</title>
+   <script type="text/javascript" language="javascript">
+
+    var isMobile = {
+        Android: function () {
+            return /Android/i.test(navigator.userAgent);
+        },
+        iOS: function () {
+            return /iPhone|iPad|iPod/i.test(navigator.userAgent);
+        },
+        any: function () {
+            return (isMobile.Android() isMobile.iOS();
+        }
+    };
+
+    if (isMobile.iOS()) {
+        window.location = "itune store url";
+    }
+    else if (isMobile.Android()) {
+        window.location = "https://play.google.com/store/apps/details?id=gira.mobileDcs";
+    }
+
+</script>
   </head>
  <body></body>
 </html>
