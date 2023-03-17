@@ -1,0 +1,5 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "gira.mobileDcs",
+               "sha256_cert_fingerprints": ["BC:72:BF:5D:F7:84:5A:43:11:8C:47:36:6F:6B:BB:BE:AD:BD:E8:B5:59:02:02:DB:F3:C9:38:82:09:B2:16:58"] }
+}]
