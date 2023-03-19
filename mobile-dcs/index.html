@@ -11,13 +11,13 @@
         }
     };
     var urlParams = window.location.search
-    urlParams = urlParams.length>1 ? urlParams.slice(1) : "";
+    urlParams = urlParams.length>1 ?  "&" + urlParams.slice(1) : "";
 
     if (isMobile.iOS()) {
         window.location = "itune store url";
     }
     else if (isMobile.Android()) {
-        window.location = "market://details?id=gira.mobileDcs" + urlParams.length>0 ? "&" + urlParams : "";
+        window.location = "market://details?id=gira.mobileDcs" + urlParams;
     }
 
 </script>
